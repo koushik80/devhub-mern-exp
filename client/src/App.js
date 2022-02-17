@@ -17,7 +17,7 @@ function App() {
         <Route exact path="/">
           {user ? <Home /> : <Register />}
         </Route>
-        <Route exact path="/timeline">
+        <Route path="/timeline">
           {user ? <Timeline /> : <Register />}
         </Route>
 
